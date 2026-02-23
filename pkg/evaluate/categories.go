@@ -85,4 +85,10 @@ var (
 		DefaultProfiles: []string{ProfileExtended, ProfileAdditional},
 		Order:           1400,
 	}
+	CategorySecurity = CategorySpec{
+		ID:              "information.security",
+		Title:           "Information Gathering - Container Security",
+		DefaultProfiles: []string{ProfileBasic, ProfileExtended},
+		Order:           1500,
+	}
 )
